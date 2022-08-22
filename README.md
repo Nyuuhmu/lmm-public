@@ -1,6 +1,10 @@
 # LevelModifier Modifier
 The LevelModifier Modifier is a tool made to view, edit and create LevelModifier (.dat) files for Driftcity. 
 
+## Download
+
+To download, click on any version listed under "Releases" to the right.
+
 ## Values
 
 - **Left**: Value at zero points, usually the lowest/start value
@@ -13,7 +17,14 @@ The LevelModifier Modifier is a tool made to view, edit and create LevelModifier
 - **Stop**: Point value at which the curve will stop and stay until the end
 - **Step**: Value at which the curve increases after it hits the Stop value
 
-### Curve Examples
+## Notes
+Make sure you select the correct Stage for whichever version you're working on. Stages have the following restrictions:
+
+- **Stage 1**: 800/800/800/800 max points
+- **Stage 2**: 1000/1000/1000/1000 max points
+- **Stage 3**: 1600/1600/2500/1200 max points
+
+## Curve Examples
 
 - 0, 0, 1, 1
 
@@ -42,12 +53,4 @@ The LevelModifier Modifier is a tool made to view, edit and create LevelModifier
 - 0, 1, -1, 0
 
 ![img](https://puu.sh/Jhpeu/c024903cf4.png)
-
-## Notes
-Make sure you select the correct Stage for whichever version you're working on. Stages have the following restrictions:
-
-- **Stage 1**: 800/800/800/800 max points
-- **Stage 2**: 1000/1000/1000/1000 max points
-- **Stage 3**: 1600/1600/2500/1200 max points
-
 
